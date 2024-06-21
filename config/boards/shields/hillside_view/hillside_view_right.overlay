@@ -25,6 +25,21 @@
   status = "okay";
 };
 
+// trackball bus
+/* &spi0 { */
+/*   status = "okay"; */
+/*   sck-pin = <20>; */
+/*   mosi-pin = <17>; */
+/*   miso-pin = <17>; // same as mosi (3-wire spi) */
+/*   cs-gpios = <&gpio0 22 GPIO_ACTIVE_LOW>; */
+/* }; */
+
+/* &trackball { */
+/*   status = "okay"; */
+/*   irq-gpios = <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; */
+/* }; */
+
+
 &chosen {
   zephyr,display = &nice_view;
 };
@@ -36,3 +51,4 @@
 &nice_view {
   status = "okay";
 };
+
