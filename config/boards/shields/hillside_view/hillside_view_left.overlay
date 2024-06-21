@@ -35,3 +35,21 @@
 &nice_view {
   status = "okay";
 };
+
+&i2c0 {
+    status = "okay";
+    glidepoint: glidepoint@2a {
+        status = "okay";
+    };
+};
+
+/ {
+  tpad0: tpad0 {
+        compatible = "zmk,input-listener";
+
+        device = <&glidepoint>;
+        // xy-swap;
+        // y-invert;
+        // x-invert;
+    };
+};

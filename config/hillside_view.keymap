@@ -5,7 +5,7 @@
     compatible = "zmk,keymap";
 
     default_layer {
-      label = "DEFAULT";
+      display-name = "DEFAULT";
       bindings = <
    __________DEF_L1__________                          __________DEF_R1__________
    __________DEF_L2__________                          __________DEF_R2__________
@@ -17,7 +17,7 @@
       };
 
     number_layer {
-      label = "NUMBER";
+      display-name = "NUMBER";
       bindings = <
    __________NUM_L1__________                          __________NUM_R1__________
    __________NUM_L2__________                          __________NUM_R2__________
@@ -28,7 +28,7 @@
       };
 
     symbol_layer {
-      label = "SYMBOL";
+      display-name = "SYMBOL";
       bindings = <
    __________SYM_L1__________                          __________SYM_R1__________
    __________SYM_L2__________                          __________SYM_R2__________
@@ -39,7 +39,7 @@
       };
 
     navigation_layer {
-      label = "NAVIGATION";
+      display-name = "NAVIGATION";
       bindings = <
    __________NAV_L1__________                          __________NAV_R1__________
    __________NAV_L2__________                          __________NAV_R2__________
@@ -50,7 +50,7 @@
       };
 
     settings_layer {
-      label = "SETTINGS";
+      display-name = "SETTINGS";
       bindings = <
    __________SET_L1__________                          __________SET_R1__________
    __________SET_L2__________                          __________SET_R2__________
