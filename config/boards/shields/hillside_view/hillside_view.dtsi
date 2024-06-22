@@ -199,7 +199,7 @@ nice_view_spi: &spi1 {
     tpad_central_listener {
         compatible = "zmk,input-listener";
         device = <&glidepoint0>;
-        // y-invert;
+        y-invert;
         // xy-swap;
         // x-invert;
 	};
@@ -207,7 +207,7 @@ nice_view_spi: &spi1 {
     tpad_peripheral_listener {
         compatible = "zmk,input-listener";
         device = <&glidepoint1>;
-        // y-invert;
+        y-invert;
         // xy-swap;
         // x-invert;
 	};
