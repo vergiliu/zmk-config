@@ -314,8 +314,7 @@
 #define __________NUM_R1__________  &kp PLUS         &ht F7 NUMBER_7  &ht F8 NUMBER_8  &ht F9 NUMBER_9    &kp LC(B) &none
 #define __________NUM_R2__________  &kp MINUS        &ht F4 NUMBER_4  &ht F5 NUMBER_5  &ht F6 NUMBER_6    &kp ENTER &none
 #define __________NUM_R3__________  &kp PERIOD       &ht F1 NUMBER_1  &ht F2 NUMBER_2  &ht F3 NUMBER_3    &trans    &none
-#define _________THUMB_NUM_R_______ &none &kp LCTRL NUMBER_0  &to DEF    &cl_nav
-//#define _________THUMB_NUM_R_______ &none &mt LCTRL NUMBER_0  &to DEF    &cl_nav
+#define _________THUMB_NUM_R_______ &none &mt LCTRL NUMBER_0  &to DEF    &cl_nav
 
 #define __________SYM_L1__________  &none  &kp TILDE  &kp COLON         &none      &kp LEFT_PARENTHESIS  &none 
 #define __________SYM_L2__________  &none  &kp GRAVE  &kp DOUBLE_QUOTES &kp EQUAL  &kp LEFT_BRACE        &kp LT
