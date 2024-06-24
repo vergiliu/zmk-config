@@ -200,6 +200,7 @@ nice_view_spi: &spi1 {
         compatible = "zmk,input-listener";
         device = <&glidepoint0>;
         y-invert;
+        scale-multiplier = <3>;
         // xy-swap;
         // x-invert;
 	};
@@ -208,6 +209,7 @@ nice_view_spi: &spi1 {
         compatible = "zmk,input-listener";
         device = <&glidepoint1>;
         y-invert;
+        scale-multiplier = <3>;
         // xy-swap;
         // x-invert;
 	};
