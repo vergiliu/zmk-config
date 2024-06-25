@@ -24,7 +24,7 @@
         compatible = "zmk,input-behavior-listener";
         device = <&glidepoint0>;
         y-invert;
-        scale-multiplier = <3>;
+        scale-multiplier = <2>;
         // xy-swap;
         // x-invert;
 	};
@@ -34,7 +34,7 @@
         device = <&glidepoint1>;
         layers = <DEF SYM NAV SET>;
         y-invert;
-        scale-multiplier = <3>;
+        scale-multiplier = <2>;
         /* NOTE: do NOT override event code here, */
         /*       let Cirque glidepoint reports click from taps */
         // evt-type = <INPUT_EV_REL>;
@@ -48,7 +48,7 @@
         layers = <NUM>;
         /* NOTE: only apply input-code overriding for INPUT_EV_REL */
         evt-type = <INPUT_EV_REL>;
-        x-input-code = <INPUT_REL_MISC>;
+        x-input-code = <INPUT_REL_HWHEEL>;
         y-input-code = <INPUT_REL_WHEEL>;
         bindings = <&ib_wheel_scaler 1 8>;
     };
