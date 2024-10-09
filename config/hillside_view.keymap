@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/rgb.h>
 
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -21,10 +22,10 @@
 
         main {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E  &kp R     &kp T                                                    &kp Y        &kp U     &kp I     &kp O             &kp P              &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D  &kp F     &kp G                                                    &kp H        &kp J     &kp K     &kp L             &kp SEMI           &kp ENTER
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V     &kp B        &kp N                            &kp M      &kp COMMA    &kp DOT   &kp FSLH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH
-                                &kp LALT  &lt 1 LG(C)  &kp SPACE  &kp RGUI    &kp RGUI  &kp SPACE  &lt 2 LG(V)  &kp LALT
+&kp ESC    &kp Q  &kp W  &kp E  &kp R     &kp T                                                                 &kp Y        &kp U     &kp I  &kp O      &kp P                        &kp BSPC
+&kp LCTRL  &kp A  &kp S  &kp D  &kp F     &kp G                                                                 &kp H        &kp J     &kp K  &kp L      &mt SEMICOLON DOUBLE_QUOTES  &kp ENTER
+&kp LSHFT  &kp Z  &kp X  &kp C  &kp V     &kp B        &kp ENTER                        &kp C_BACKLIGHT_TOGGLE  &kp B        &kp N     &kp M  &kp COMMA  &kp PERIOD                   &kp BSLH
+                                &kp LALT  &lt 1 LG(C)  &kp SPACE  &kp RGUI    &kp RGUI  &kp SPACE               &lt 2 LG(V)  &kp LALT
             >;
         };
 
